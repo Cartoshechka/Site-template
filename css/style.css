@@ -119,17 +119,17 @@ img{
     max-width: var(--container-secondary);
 }
 
-.hero-title{
+.hero_title{
     margin-top: 0;
     margin-bottom: 40px;
 }
 
-.hero-description{
+.hero_description{
     margin-bottom: 57px;
     color: var(--color-secondary);
 }
 
-.hero-button{
+.hero_button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,14 +174,14 @@ img{
     min-width: fit-content;
 }
 
-.experience_item-picture{
+.experience_item--picture{
     order: -1;
 }
-.experience_item-image{
+.experience_item--image{
     display: block;
 }
 
-.experience_item-description{
+.experience_item--description{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -189,7 +189,7 @@ img{
 
 }
 
-.experience_item-number{
+.experience_item--number{
     font-size: 1.3125rem;
     font-weight: 500;
 }
