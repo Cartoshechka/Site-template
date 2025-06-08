@@ -7,55 +7,129 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HOME</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="navbar">
-                <ol>
-                    <li>
-                        <a href="#" class="navbar-link navbar-link--active">HOME</a>
+                <ol class="navbar_list">
+                    <li  class="navbar_item">
+                        <a href="#" class="navbar_link navbar_link--active">HOME</a>
                     </li>
-                    <li>
-                        <a href="#" class="navbar-link">ABOUT</a>
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_link">ABOUT</a>
                     </li>
-                    <li>
-                        <a href="#" class="navbar-link">WORKS</a>
+                    <li class="navbar_item">
+                        <a href="#" class="navbar_link">WORKS</a>
                     </li>
-                    <li>
-                        <a href="#" class="navbar-link">PROCESS</a>
+                    <li  class="navbar_item">
+                        <a href="#" class="navbar_link">PROCESS</a>
                     </li>
-                    <li>
-                        <a href="#" class="navbar-link">CONTACTS</a>
+                    <li   class="navbar_item">
+                        <a href="#" class="navbar_link">CONTACTS</a>
                     </li>
                 </ol>
             </div>
             <div class="hero">
                 <h1 class="hero-title"> Design and Layout</h1>
-                <p class="hero-description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard dummy text for Latin scripts since the 16th century.</p>
+                <p class="hero-description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard text for Latin scripts since the 16th century.</p>
+                <a href="#" class="hero-button">write to me</a>
             </div>
-            <button class="hero-button" href="#">Write to me</button>
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <section class="about section">
             <div class="container-sm">
-                <h2 class=""></h2>
+                <h2 class="about_title section-title">About me</h2>
+                <p class="about_description section-description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard text for Latin scripts since the 16th century.</p>
             </div>
         </section>
 
         <section class="experience">
+            <div class="container">
+                <h2 class="experience_title visually-hidden" >My experience</h2>
+                <div class="experience_container">
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 1">
+                    </div>
+                </div>
+
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 2">
+                    </div>
+                </div>
+
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 3">
+                    </div>
+                </div>
+
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 4">
+                    </div>
+                </div>
+
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 5">
+                    </div>
+                </div>
+
+                <div class="experience_item">
+                    <div class="experience_item-description">
+                        <p class="experience_item-number">40+</p>
+                        <p class="experience_item-label">projects</p>
+                    </div>
+                    <div class="experience_item-picture">
+                        <img class="experience_item-image" src="img/project.svg" alt="Experience 6">
+                    </div>
+                </div>
+
+                </div>
+            </div>
         </section>
 
         <section class="process section">
+            <div class="container-sm">
+                <h2 class="process_title section-title">How I Work</h2>
+                <p class="process_description section-description">Lorem Ipsum is a placeholder text commonly used in printing and web design. Lorem Ipsum has been the standard text for Latin scripts since the 16th century.</p>
+            </div>
         </section>
 
         <section class="video">
+            <div class="container">
+            <h2 class="video_title visually-hidden">Video</h2>
+                <iframe class="video_iframe" width="560" height="315" src="https://www.youtube.com/embed/g1-mYBJ2AuI?si=LAqhqk5epua-eOR8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
 
@@ -63,7 +137,7 @@
         <div class="container">
             <div class="footer-title">Ostap Ivanenko</div>
             <div class="footer-description">
-                &copy; 2019. All rights reserved.
+                &copy; 2018. All rights reserved.
             </div>
         </div>
     </footer>
