@@ -93,21 +93,21 @@ img{
     margin-bottom: 141px;
 }
 
-.navbar_list{
+.navbar__list{
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
     margin-left: -0.75em;
 }
 
-.navbar_link{
+.navbar__link{
     display: block;
     letter-spacing: var(--letter-spacing);
     padding: 0.5em 0.75em;
     text-transform: uppercase;
 }
 
-.navbar_link--active{
+.navbar__link--active{
     color: var(--color-primary);
     font-weight: 500;
 }
@@ -119,17 +119,17 @@ img{
     max-width: var(--container-secondary);
 }
 
-.hero_title{
+.hero__title{
     margin-top: 0;
     margin-bottom: 40px;
 }
 
-.hero_description{
+.hero__description{
     margin-bottom: 57px;
     color: var(--color-secondary);
 }
 
-.hero_button{
+.hero__button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,10 +147,12 @@ img{
     padding-bottom: 100px;
     text-align: center;
 }
-.section-title{
+
+.section__title{
     margin-bottom: 36px;
 }
-.section-description{
+
+.section__description{
     color: var(--color-secondary);
 }
 
@@ -161,35 +163,36 @@ img{
     color: var(--color-white);
 }
 
-.experience_container{
+.experience__container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: var(--gap-xl);
 }
-.experience_item{
+
+.experience__item{
     display: flex;
     gap: var(--gap);
     align-items: center;
     min-width: fit-content;
 }
 
-.experience_item--picture{
+.experience__picture{
     order: -1;
 }
-.experience_item--image{
+
+.experience__image{
     display: block;
 }
 
-.experience_item--description{
+.experience__description{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     line-height: 1;
-
 }
 
-.experience_item--number{
+.experience__number{
     font-size: 1.3125rem;
     font-weight: 500;
 }
@@ -205,12 +208,13 @@ img{
     background-color: var(--color-gray-light);
     padding-bottom: 57px;
 }
+
 .video{
     background-color: var(--color-gray-light);
     padding-bottom: 100px;
 }
 
-.video_iframe{
+.video__iframe{
     display: block;
     width: 100%;
     height: auto;
@@ -227,13 +231,13 @@ img{
     color: var(--color-white);
 }
 
-.footer-title {
+.footer__title {
     font-size: 1.3125rem;
     font-weight: 500;
     margin-bottom: 5px;
 }
 
-.footer-description {
+.footer__description {
     font-size: 0.8125rem;
     margin-bottom: 57px;
 }
