@@ -242,8 +242,6 @@ img{
     margin-bottom: 57px;
 }
 
-/* Add these media query rules at the end of your existing CSS file */
-
 @media screen and (max-width: 1200px) {
     :root {
         --container-primary: 900px;
